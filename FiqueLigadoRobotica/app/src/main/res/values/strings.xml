@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">" Robótica Show  "</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_PrincipaisCompet"> Principais Competições</string>
+    <string name="title_activity_sub">História da Robótica</string>
+    <string name="title_activity_terceira">Principais Competições</string>
+    <string name="title_activity_quarta">Robôs com Lixo Eletrônico</string>
+    <string name="title_activity_quinta">Projeto com Arduino</string>
+    <string name="title_activity_sexta">Faça seu Robô</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="texoHistoria"> alisson luannnsn salksa nsansao ascjsaoicascnsancoas cnsacnosa ocnsaocnsoc</string>
+
+</resources>

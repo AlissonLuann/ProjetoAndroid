@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollViewCompet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_competicoes">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@+id/scrollViewCompet"
+            android:scaleType="centerCrop"
+            android:src="@drawable/principaiscompeticoes" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Principais Competições"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:paddingTop="35dp"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#222"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="30dp"
+            android:id="@+id/textCompet"
+            android:textSize="16sp"
+            android:paddingLeft="34dp"
+            android:paddingRight="24dp"
+            android:paddingBottom="10dp"
+            android:textColor="#222"
+            android:fontFamily="sans-serif-condensed"/>
+    </LinearLayout>
+</ScrollView>

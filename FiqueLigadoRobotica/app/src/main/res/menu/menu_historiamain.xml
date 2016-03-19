@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".HistoriaActivity">
+    <item
+        android:id="@+id/action_Compet"
+        android:orderInCategory="100"
+        android:title="Principais competições"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_roboLixo"
+        android:orderInCategory="100"
+        android:title="Robôs com lixo eletrônico"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_projeto"
+        android:orderInCategory="100"
+        android:title="Projetos com Arduino"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_aprenda"
+        android:orderInCategory="100"
+        android:title="Aprenda a fazer um robô"
+        app:showAsAction="never" />
+
+
+</menu>
